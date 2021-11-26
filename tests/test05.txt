@@ -1,0 +1,52 @@
+junior salesperson
+Kaichis
+Daniel
+102987432
+June
+3
+2003
+65
+41
+0
+junior salesperson
+Baglione
+Julian
+106987432
+June
+7
+2003
+60
+40
+2000
+senior salesperson
+Tang
+Matthew
+102987812
+July
+10
+2003
+101
+56
+3000
+senior salesperson
+Zhang
+Darren
+982187812
+August
+19
+2003
+14
+1
+3000
+senior salesperson
+Kaichis
+Ryan
+182117112
+December
+20
+2003
+12
+70
+5000
+END
+

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>accountant.hpp</itemPath>
+      <itemPath>date.hpp</itemPath>
+      <itemPath>employee.hpp</itemPath>
+      <itemPath>generalWorkInfo.hpp</itemPath>
+      <itemPath>hourlyPaidEmployee.hpp</itemPath>
+      <itemPath>humanResource.hpp</itemPath>
+      <itemPath>juniorSalesperson.hpp</itemPath>
+      <itemPath>manager.hpp</itemPath>
+      <itemPath>name.hpp</itemPath>
+      <itemPath>personalInfo.hpp</itemPath>
+      <itemPath>salaryBasedEmployee.hpp</itemPath>
+      <itemPath>salesperson.hpp</itemPath>
+      <itemPath>secretary.hpp</itemPath>
+      <itemPath>seniorSalesperson.hpp</itemPath>
+      <itemPath>weeklyWorkInfo.hpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>accountant.cpp</itemPath>
+      <itemPath>date.cpp</itemPath>
+      <itemPath>employee.cpp</itemPath>
+      <itemPath>generalWorkInfo.cpp</itemPath>
+      <itemPath>hourlyPaidEmployee.cpp</itemPath>
+      <itemPath>humanResource.cpp</itemPath>
+      <itemPath>juniorSalesperson.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>manager.cpp</itemPath>
+      <itemPath>name.cpp</itemPath>
+      <itemPath>personalInfo.cpp</itemPath>
+      <itemPath>salaryBasedEmployee.cpp</itemPath>
+      <itemPath>salesperson.cpp</itemPath>
+      <itemPath>secretary.cpp</itemPath>
+      <itemPath>seniorSalesperson.cpp</itemPath>
+      <itemPath>weeklyWorkInfo.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="accountant.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="accountant.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="date.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="date.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="employee.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="employee.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="generalWorkInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="generalWorkInfo.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="hourlyPaidEmployee.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="hourlyPaidEmployee.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="humanResource.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="humanResource.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="juniorSalesperson.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="juniorSalesperson.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="manager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="manager.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="name.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="name.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="personalInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="personalInfo.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="salaryBasedEmployee.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="salaryBasedEmployee.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="salesperson.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="salesperson.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="secretary.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="secretary.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="seniorSalesperson.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="seniorSalesperson.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="weeklyWorkInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="weeklyWorkInfo.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="accountant.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="accountant.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="date.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="date.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="employee.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="employee.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="generalWorkInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="generalWorkInfo.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="hourlyPaidEmployee.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="hourlyPaidEmployee.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="humanResource.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="humanResource.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="juniorSalesperson.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="juniorSalesperson.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="manager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="manager.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="name.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="name.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="personalInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="personalInfo.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="salaryBasedEmployee.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="salaryBasedEmployee.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="salesperson.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="salesperson.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="secretary.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="secretary.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="seniorSalesperson.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="seniorSalesperson.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="weeklyWorkInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="weeklyWorkInfo.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
